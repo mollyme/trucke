@@ -17,7 +17,9 @@ img {
 a, a:hover, a:active, a:visited{text-decoration: none; cursor:pointer;}
 a.red{color:#AB1A1A;}
 
-
+#grad {
+  background-image: linear-gradient(to right, red , yellow);
+}
 
 
 .logo{
@@ -228,6 +230,7 @@ button:hover{
 
 #home{
 	margin:60px 0;
+  background-image: linear-gradient(to right, red , yellow);
 } 
 
 #home p{
