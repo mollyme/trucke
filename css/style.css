@@ -98,7 +98,6 @@ z-index:1000;
 .divider{
     background-color:#fff;
     height:140px;
-    border:1px solid #000;
 }
 
 hr{
@@ -127,6 +126,14 @@ drawline {
   font-weight: 300;
 }
 
+.highlight{
+  width: 50%
+  height:50%;
+  margin:0 auto;
+ margin-top:20px;
+}
+
+
 input, textarea, button{
     background-color: transparent!important;
 
@@ -138,6 +145,7 @@ h1:after {
 } 
 
 .force{display: :block; margin-left:10px;}
+.force-centered{text-align:center;}
 
 /*-------- headings  -------------*/
 
@@ -218,6 +226,7 @@ button{
     font-weight: bold;
     font-size:12px !important;
     margin: 10px 0 !important;
+    background-color: transparent;
    
 }
 
@@ -229,8 +238,8 @@ button:hover{
 /*-------- home section  -------------*/
 
 #home{
-	margin:60px 0;
-  background-image: linear-gradient(to right, red , yellow);
+	padding: 60px 0;
+  background-image: linear-gradient(to right, #dbe0df , #b2c8d6);
 } 
 
 #home p{
@@ -242,6 +251,8 @@ button:hover{
 	border-right:1px #737573 solid; 
   
 }
+
+
 
 
 /*-------- about section  -------------*/
@@ -374,7 +385,6 @@ button:hover{
 
 #contact p{
     font-size:1em;
-    text-align: left; 
     display:block;
     padding-bottom: 10px;
 }
@@ -386,7 +396,7 @@ form{padding:30px 0;}
 
 /*-------- footer  -------------*/
 footer{
-	background:#ffffff;
+	background:#000;
     text-align: center;
     color:#737573;
     height:100px;
