@@ -1,0 +1,455 @@
+/* trucke stylesheet */
+/* Feb 2019 */
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+    color:#000;
+    background-color: #e5edee;
+  }
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+a, a:hover, a:active, a:visited{text-decoration: none; cursor:pointer;}
+a.red{color:#AB1A1A;}
+
+header{
+    background: #ffffff;
+   
+}
+
+
+.logo{
+z-index:1000;
+
+}
+
+.underground{position: relative;}
+/*-------- nav-bar   -------------*/
+.nav-bar{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+  margin-top:30px;
+}
+
+.nav-bar li{ 
+    padding:0;
+    list-style: none; 
+    display:inline-block; 
+ 	flex: 1;
+  	text-align: center;
+  	padding: 24px;
+}
+
+.nav-bar a {
+	color:#737573;
+    font-family:'Avenir Next', sans-serif;
+    font-size:110%;
+    margin-left:30px;
+    text-transform: uppercase;
+    
+}
+
+.nav-bar a:hover, .nav-bar a:active, .nav-bar a:visited{
+	text-decoration:none;
+}
+
+.nav-bar a.selected{ 
+    padding-bottom: 5px; 
+    border-bottom:2px solid #AB1A1A;}
+
+/*-------- display section  -------------*/
+
+#display{
+    position:relative;
+}
+
+#display img{ 
+   	width:100%;
+   /* max-height: 427px;/*
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    object-position: center; 
+    margin-top:0;
+   }
+.pushleft{text-align: left; top:40%; font-size:220%;margin-left:20px;}
+
+/*------------ misc sections ---------- */
+
+.social{
+   float:right;
+}
+
+.logo{
+  margin:0; 
+  padding:0; 
+  display: inline-block;
+  position:absolute;
+  margin:1  0px 0px 0px 50px;
+  z-index:1000;
+}
+.tiny{text-align: right;font-size:12px;}
+.divider{
+    background-color:#fff;
+    height:140px;
+    border:1px solid #000;
+}
+
+hr{
+    background-color: #d8d8d8; 
+    height: 1px; 
+    border: 0; 
+    margin-top:100px;
+ }
+
+drawline {
+  line-height: 1;
+  text-align: center;
+}
+
+.drawline  {
+  display: inline-block;
+  position: relative;  
+}
+
+.no-box{
+  border-top:0;
+  border-left:0;
+  border-right: 0;
+  border-bottom:2px solid #000;
+  padding-bottom:20px;
+  font-weight: 300;
+}
+
+input, textarea, button{
+    background-color: transparent!important;
+
+}
+
+h1:after {
+  left: 100%;
+  margin:0 15px;
+} 
+
+.force{display: :block; margin-left:10px;}
+
+/*-------- headings  -------------*/
+
+h3{ /*text over main image */
+    position: absolute; 
+   	top: 40%; 
+   	width: 100%;
+   	color:#ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 100%;
+   
+    
+}
+
+h2{/*divider copy */
+    font-size:100%;
+    padding:60px;
+    color:#000;
+    text-align: justify;
+    line-height: 200%;
+    font-weight: 200;
+
+   
+}
+
+h1{
+    /*width:100%; */
+    padding-bottom: 10px;
+    font-weight: 700;
+    text-align: left !important;
+    line-height: 1;
+   
+    
+}
+h5{
+  border-top: 1px solid #c05a1c;
+  border-bottom:1px solid #c05a1c;
+  color:#c05a1c;
+  font-size:90%;
+  padding:10px 0 10px 0;
+  text-align: center;
+
+}
+
+h6{
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size:16px;
+  text-align:center;
+}
+    
+}
+h4 span{
+    top: 0;
+    font-weight: 400;
+    font-size: 90%;
+}
+
+/*h4 span::before{content:"\a";
+    white-space:pre;} */
+
+b{
+	color:#737573;
+}
+
+form label{
+	color:#737573;
+}
+
+button{ 
+	background-color:#ffffff !important;
+    color:#000 !important;
+    border:2px solid #000 !important;
+    text-transform: uppercase !important;
+    font-weight: bold;
+    font-size:12px !important;
+    margin: 10px 0 !important;
+   
+}
+
+button:hover{
+    background-color:#000!important;
+	color:#ffff00 !important;
+}
+
+/*-------- home section  -------------*/
+
+#home{
+	margin:60px 0;
+} 
+
+#home p{
+    display:block;
+    text-align: justify;
+	}
+
+.line{
+	border-right:1px #737573 solid; 
+  
+}
+
+
+/*-------- about section  -------------*/
+
+#about p{ 
+    padding-top:20px;
+    border-top: 1px solid #d8d8d8;
+	text-align: justify;
+}
+
+
+/*-------- products section  -------------*/
+
+#product{
+	margin:0 auto;
+    padding: 40px 0;
+   
+}
+
+.frame{padding:5px;}
+ #product img {
+    display:inline-block!important;
+    width: 100%;
+    /*margin-top:20px; */
+    position:relative;
+    text-align: center; 
+     margin:0px;
+}
+
+
+.cover{
+	position: absolute;
+    z-index: 5;
+    left: 0; 
+    width: 100%;
+    height:100%;
+    background-color:#ab1a1a;
+    top:0px;
+  	left:0px;
+    /* opacity: 0.7;
+    filter: alpha(opacity=50); /* For IE8 and earlier  */
+    display:none; 
+}
+
+.frame:hover >.cover {display:inline-block;}
+
+.caption{
+	position:relative;
+    margin:0 auto;
+    top:45%;
+    font-size:160%;
+    color:#fff;
+    font-weight:bold;
+    text-align: center;
+    line-height: 120%;
+    padding:0 10px;
+
+}
+.prod_descr {
+    position: relative;
+   	padding:10px;
+    width: 100%;
+    color:#ffffff;
+    text-align: center;
+}
+
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
+    margin:0;
+    padding:0;
+}
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: relative; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Half width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(255,255,255); /* Fallback color */
+    background-color: rgba(245,245,245,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*-------- contact section  -------------*/
+#contact{
+	
+    margin:0 auto;
+    margin-top:60px;
+}
+
+#contact p{
+    font-size:1em;
+    text-align: left; 
+    display:block;
+    padding-bottom: 10px;
+}
+
+
+.contact-info{ background:#F3F1F1;  text-align: center;}
+
+form{padding:30px 0;}
+
+/*-------- footer  -------------*/
+footer{
+	background:#ffffff;
+    text-align: center;
+    color:#737573;
+    height:100px;
+   	padding-top:20px;
+    margin-top:10px;
+    border-top:1px solid #d8d8d8;
+}
+
+.nav-footer{list-style-type: none; margin:0;padding:0px;}
+.nav-footer li{text-align: left;}
+.nav-footer li a{ color:#737573;text-decoration: none;}
+
+
+.thankyou{
+	max-width:420px;
+    background: #737573;
+    color:#ffffff;
+    margin:0 auto;
+    padding:40px;
+}
+
+.thankyou p{text-align: center!important;}
+.errortext{color:#f79120;}
+a.error_note {text-decoration: none;}
+
+
+    
+   .thankyou h4{ 
+       color:#4db9c1; 
+       text-align: center;  
+       font-size:200%;
+       margin:0 auto;
+       font-weight: bold;
+       margin-top:20px;
+}
+
+ .btnback{
+     	font-size: 14px;
+     	text-align: center;
+     	white-space: nowrap;
+    	vertical-align: middle;
+     	cursor: pointer;
+     	border-radius: 4px;
+		display: block; 
+    	margin:0 auto; 
+     	padding:4px 10px;
+    	background:#4DB9C1;!important;
+     	border:1px solid #4db9c1;
+     	color:#ffffff;
+}
+
+
+
+@media only screen and (max-width : 767px) { /* mobile up to 767px wide --------------------- */
+    
+    .logo{width:20%; height:auto; display: block; margin:0 auto;}
+    .nav-bar li{padding: 14px;}
+    .nav-bar a { margin-left:0px;font-size:100%;}
+
+	#about{margin:20px 0 30px 0;}
+    #about div{margin-bottom:10px;}
+    #about div:nth-of-type(2){display:none;}
+    #about img, #produt img{ width:20%; height:auto;}
+    #product, #product h3, #product p.description {text-align:center;}
+} 
