@@ -147,6 +147,16 @@ h1:after {
 .force{display: :block; margin-left:10px;}
 .force-centered{text-align:center;}
 
+#base {
+      background: #ffff00;
+      display: block;
+      height:7px;
+      margin:0 auto;
+      width: 20px;
+    }
+    
+
+
 /*-------- headings  -------------*/
 
 h3{ /*text over main image */

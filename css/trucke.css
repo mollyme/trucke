@@ -547,7 +547,7 @@ pre code {
 }
 
 .marketing{
-	margin-top: 100px;
+	margin-top: 50px;
 }
 @media (min-width: 576px) {
   .container {
@@ -4645,7 +4645,10 @@ input[type="button"].btn-block {
   padding: 1.25rem;
 }
 
-.card-text-title{font-weight:bold;margin-top:10px; text-align: center;}
+.card-text-title{font-weight:300;margin-top:5px; text-align:center!important;
+; 
+    font-size:10pt!important;
+}
 .card-title {
   margin-bottom: 0.5rem;
   text-align:center;
@@ -4663,10 +4666,13 @@ input[type="button"].btn-block {
 
 }
 .card-text{
-	font-weight:200;
-  font-size:14px;
+    font-weight:300;
+    font-size:12px;
+    text-align:center!important;
+    color:#d6d0d0;
 }
 
+}
 
 .card-link:hover {
   text-decoration: none;
