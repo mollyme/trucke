@@ -17,10 +17,7 @@ img {
 a, a:hover, a:active, a:visited{text-decoration: none; cursor:pointer;}
 a.red{color:#AB1A1A;}
 
-header{
-    background: #ffffff;
-   
-}
+
 
 
 .logo{
@@ -213,7 +210,6 @@ form label{
 }
 
 button{ 
-	background-color:#ffffff !important;
     color:#000 !important;
     border:2px solid #000 !important;
     text-transform: uppercase !important;
