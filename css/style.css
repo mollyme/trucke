@@ -15,19 +15,15 @@ img {
 }
 
 a, a:hover, a:active, a:visited{text-decoration: none; cursor:pointer;}
-a.red{color:#AB1A1A;}
 
 #grad {
   background-image: linear-gradient(to right, red , yellow);
 }
 
-
-.logo{
-z-index:1000;
-
 }
 
 .underground{position: relative;}
+
 /*-------- nav-bar   -------------*/
 .nav-bar{
   display: flex;
@@ -78,13 +74,16 @@ z-index:1000;
     object-position: center; 
     margin-top:0;
    }
-.pushleft{text-align: left; top:40%; font-size:220%;margin-left:20px;}
+
+.pushleft{
+    text-align: left; 
+    top:40%; 
+    font-size:220%;
+    margin-left:20px;
+}
 
 /*------------ misc sections ---------- */
 
-.social{
-   float:right;
-}
 
 .logo{
   margin:0; 
@@ -94,18 +93,12 @@ z-index:1000;
   margin:1  0px 0px 0px 50px;
   z-index:1000;
 }
-.tiny{text-align: right;font-size:12px;}
-.divider{
-    background-color:#fff;
-    height:140px;
-}
 
-hr{
-    background-color: #d8d8d8; 
-    height: 1px; 
-    border: 0; 
-    margin-top:100px;
- }
+.tiny{
+    text-align:center!important;
+    font-size:12px; 
+    vertical-align:text-bottom !important;   
+}
 
 drawline {
   line-height: 1;
@@ -133,12 +126,6 @@ drawline {
  margin-top:20px;
 }
 
-
-input, textarea, button{
-    background-color: transparent!important;
-
-}
-
 h1:after {
   left: 100%;
   margin:0 15px;
@@ -159,22 +146,22 @@ h1:after {
 
 /*-------- headings  -------------*/
 
-h3{ /*text over main image */
+h2{ /*text over main image */
     position: absolute; 
-   	top: 40%; 
+   	top: 70%; 
    	width: 100%;
-   	color:#ffffff;
+   	color:#d3cccc;
     text-transform: uppercase;
     font-weight: 400;
-    letter-spacing: 1.5px;
-    line-height: 1.5em;
-    text-align: center;
-    font-size: 100%;
-   
-    
+    line-height: 1em;
+    letter-spacing: .1em;
+    text-align: right;
+    font-size: 260%;
+    padding-right:30px;
 }
+.150p{font-size:45px;}
 
-h2{/*divider copy */
+h3{/*divider copy */
     font-size:100%;
     padding:60px;
     color:#000;
@@ -257,11 +244,6 @@ button:hover{
     text-align: justify;
 	}
 
-.line{
-	border-right:1px #737573 solid; 
-  
-}
-
 
 
 
@@ -337,11 +319,6 @@ button:hover{
     padding:0;
 }
 
-
-
-
-
-
 /* The Modal (background) */
 .modal {
     display: none; /* Hidden by default */
@@ -388,7 +365,6 @@ button:hover{
 
 /*-------- contact section  -------------*/
 #contact{
-	
     margin:0 auto;
     margin-top:60px;
 }
@@ -402,19 +378,18 @@ button:hover{
 
 .contact-info{ background:#F3F1F1;  text-align: center;}
 
-form{padding:30px 0;}
+/*form{padding:30px 0;} */
 
 /*-------- footer  -------------*/
 footer{
 	background:#000;
     text-align: center;
     color:#737573;
-    height:100px;
-   	padding-top:20px;
-    margin-top:10px;
+   	padding:20px 20px 0px 20px;
     border-top:1px solid #d8d8d8;
 }
-
+.btn-light{background-color:#ffff00!important;color:#000!important;}
+.btn-light:hover{background-color:#ffffff!important;color:#000!important;}
 .nav-footer{list-style-type: none; margin:0;padding:0px;}
 .nav-footer li{text-align: left;}
 .nav-footer li a{ color:#737573;text-decoration: none;}
@@ -427,12 +402,38 @@ footer{
     margin:0 auto;
     padding:40px;
 }
+input, textarea, button{
+    background-color: transparent!important;
+}
 
-.thankyou p{text-align: center!important;}
+footer p{
+    text-align: left!important; 
+    color:#fff; margin:0 !important; 
+    padding:0px !important
+}
+
+footer input[type="text"] {
+    background:#252525!important;
+}
 .errortext{color:#f79120;}
+
 a.error_note {text-decoration: none;}
 
+.shine {color:#ffff00;}
+.gray{background:#252525; height:50px;}
 
+.inputgray{
+    background:#252525!important; 
+    padding:10px!important; 
+    margin-bottom:0 !important;
+    border:0!important;
+    text-align: left!important;
+}
+
+.form_wnomargin{
+    margin:0!important;
+    padding:0px!important;
+}
     
    .thankyou h4{ 
        color:#4db9c1; 

@@ -10,7 +10,7 @@
   <link href="css/trucke.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400" rel="stylesheet">
-    <link href=https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">    
    
 
    <link rel="stylesheet" href="css/style.css"> 
@@ -40,10 +40,10 @@
     		<div class="row">
             <div class="col-md-2"></div>
        			<div class="col-md-4">
-             		<h1>Let's get </br>in touch</h1>
+             		<h1>Let's get <br>in touch</h1>
             </div>
             <div class="col-md-4">
-            	<p><strong>Ready when you are.</strong></br> We are here when you need us.. Nothing more to say, if you do, leave us a note.</p>
+            	<p><strong>Ready when you are.</strong><br> We are here when you need us.. Nothing more to say, if you do, leave us a note.</p>
             </div>
         </div>
         <form name="contactform" method="post" action="send_toemail.php">
@@ -51,10 +51,10 @@
             <a name="contact"></a>
               <div class="col-md-2"></div>
               <div class="col-md-4">
-     					  <div class="form-group">
-            			<input name="full_name" type="fullname" class="form-control no-box" id="name" aria-describedby="name"
+     			<div class="form-group">
+                    <input name="full_name" type="fullname" class="form-control no-box" id="name" aria-describedby="name"
                   			placeholder="Your name (required)">
-          			</div>
+          		</div>
               </div>
               <div class="col-md-4">
                 <div class="form-group">
@@ -64,7 +64,7 @@
             </div>
           </div>
           <div class="row">
-              <div class="col-md-2"></div>
+            <div class="col-md-2"></div>
               <div class="col-md-4">
                 <div class="form-group">
                   <input name="company" type="company" class="form-control no-box" id="name" aria-describedby="company"
@@ -87,54 +87,59 @@
            	 				<textarea name="inquiry" class="form-control no-box" id="message" rows="3" placeholder="Your message"></textarea>
           				</div>
 						        <div class="force-centered"><button type="submit" class="btn btn-primary">Get in touch</button></div>
-        			   </form>
+        			   
         		  </div>
     		  </div>
-        
+        </form>
         
     </section> 
          <!-- end of section --> 
             <!-- contact information -->
-            <div class="row" style="background-color: red;">
-                
-                    <p style="text-align: center; background-color: blue;"><br>
+            <div class="row">
+                <div class="col-md-12">
+                    <p style="text-align: center;"><br>
                     <strong>TRUCKE</strong><br>
-					Address de Yamil <br>
-					Houston,TX, 77001 <br>
+					Address de Yamil, Houston,TX, 77001 <br>
 					info@trucke.com<br>
                     713.555.5555
 					</p>
                 </div>
+            </div>
           
                 
 
-	<footer>
+	<footer> <!-- start_of footer -->
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-3">
                 <nav>
-              <ul class="nav-footer">
+        			<ul class="nav-footer">
                         <li><a href="#shipping.html">SHIPPING AND DELIVERY  </a></li>
                         <li><a href="#terms.html">TERMS AND CONDITIONS</a></li>
                         <li><a href="#privacy.html">PRIVACY POLICY</a></li>
-              </ul>
-                </nav> 
+         			</ul>
+               	</nav> 
             </div>
             <div class="col-md-4">
-                <p style="color:#fff;">JOIN OUR NEWSLETTER</p></br>
-                <input type="text"><button type="button" class="btn btn-primary">JOIN US</button></a>
-             
-            </div>
+                <p>JOIN OUR NEWSLETTER</p>
+                     <form class="form_wnomargin mailinglist" method="post" action="send_toemail2.php"> 
+     			        <div class="form-group">
+            			 <input name="email" type="email" class="inputgray" id="email" aria-describedby="email" placeholder="Email address"> 
+          			       <a href="join.php"><button type="button" class="btn btn-primary btn-light">JOIN US</button></a>
+                       </div>
+                    </form>
+            </div> 
         </div>
-        <div class="row">
-            <div class="col-md-10"></div>
-            <div class="col-md-2">
-
-                <p class="tiny">&copy;Copyright 2019, TRUCKE <br> </p>
+            <div class="row gray">
+                <div class="col-md-12"><br>
+                    <p class="tiny" style="vertical-align: center;"> © COPYRIGHT 2019 | <strong class="shine">
+                        TRUCKE </strong> | INFO@TRUCKE.COM | 000.000.0000 | ALL RIGHTS RESERVED 
+                    </p>
+                </div>
             </div>
-        </div>
-    </footer> 
-</div> 
+        
+    </footer> <!-- end_of footer -->
+</div> <!-- end_of container -->
  <!-- jQuery -->
     <script src="js/jquery-3.1.1.min.js"></script>
 
