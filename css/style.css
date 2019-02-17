@@ -289,12 +289,12 @@ button:hover{
 	position: absolute;
     z-index: 5;
     /*left: 0; */
-    width: 100%;
+    width: 86%;
     height:100%;
     background-color:#fff;
     top:0px;
-  	left:0px;
-    opacity: 0.7;
+  	left:12px;
+    opacity: 0.8;
     filter: alpha(opacity=50); /* For IE8 and earlier  */
     display:none; 
 
