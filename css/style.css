@@ -143,9 +143,10 @@ h1:after {
     }
     
 .divider{
-    height:60px;
-    
+    height:60px;    
 }
+
+.productdiv{margin-top:20px;}
 
 /*-------- headings  -------------*/
 
