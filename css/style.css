@@ -6,6 +6,8 @@ body{
 	font-family: 'Roboto', sans-serif;
     color:#000;
     background-color: #e5edee;
+    line-height: 1.368em;
+    font-weight: 300;
   }
 
 img {
@@ -94,7 +96,8 @@ a, a:hover, a:active, a:visited{text-decoration: none; cursor:pointer;}
   z-index:1000;
 }
 
-.tiny{
+.copyright-text{
+    padding:15px!important;
     text-align:center!important;
     font-size:12px; 
     vertical-align:text-bottom !important;   
@@ -246,6 +249,7 @@ button:hover{
 #home p{
     display:block;
     text-align: justify;
+    
 	}
 
 
@@ -253,9 +257,13 @@ button:hover{
 
 /*-------- about section  -------------*/
 
+#about {
+margin:0 auto;
+margin-top:60px;
+    
+}
 #about p{ 
-    padding-top:20px;
-    border-top: 1px solid #d8d8d8;
+    padding-bottom:20px;
 	text-align: justify;
 }
 
@@ -423,7 +431,10 @@ footer{
 input, textarea, button{
     background-color: transparent!important;
 }
-
+form-group{
+    margin:0px!important;
+    padding:0px !important;
+}
 footer p{
     text-align: left!important; 
     color:#fff; margin:0 !important; 
@@ -443,15 +454,11 @@ a.error_note {text-decoration: none;}
 .inputgray{
     background:#252525!important; 
     padding:10px!important; 
-    margin-bottom:0 !important;
+    margin:0 !important;
     border:0!important;
-    text-align: left!important;
 }
 
-.form_wnomargin{
-    margin:0!important;
-    padding:0px!important;
-}
+
     
    .thankyou h4{ 
        color:#4db9c1; 
