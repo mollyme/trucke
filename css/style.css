@@ -417,7 +417,10 @@ footer{
 .btn-light{background-color:#ffff00!important;color:#000!important;}
 .btn-light:hover{background-color:#ffffff!important;color:#000!important;}
 .nav-footer{list-style-type: none; margin:0;padding:0px; text-align: center; }
-.nav-footer a{color:#fff !important;text-decoration: none;}
+.nav-footer a{color:#fff!important;text-decoration: none;}
+.nav-footer a:hover {
+  text-decoration: none;
+    color:#ffff00!important;}
 
 
 .thankyou{
