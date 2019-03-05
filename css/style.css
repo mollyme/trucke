@@ -416,9 +416,8 @@ footer{
 }
 .btn-light{background-color:#ffff00!important;color:#000!important;}
 .btn-light:hover{background-color:#ffffff!important;color:#000!important;}
-.nav-footer{list-style-type: none; margin:0;padding:0px;}
-.nav-footer li{text-align: left;}
-.nav-footer li a{ color:#737573;text-decoration: none;}
+.nav-footer{list-style-type: none; margin:0;padding:0px; text-align: center; }
+.nav-footer a{color:#fff;text-decoration: none;}
 
 
 .thankyou{
